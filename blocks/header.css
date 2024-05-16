@@ -1,0 +1,20 @@
+.header {
+  margin-top: 45px;
+  margin-bottom: 0;
+  height: 74px;
+  border-bottom: #545454;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.page__section {
+  max-width: 880px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.header-logo {
+  max-width: 173px;
+  max-height: 33px;
+}
