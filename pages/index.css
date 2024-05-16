@@ -1,0 +1,23 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+.page {
+  background-color: black;
+  color: white;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.page__content {
+  margin: 0 200px 0 200px;
+}
+
+.header {
+  margin: 45px 0 0 0;
+  max-width: 880px;
+  max-height: 74px;
+}
+
+.header-logo {
+  max-width: 173px;
+  max-height: 33px;
+}
