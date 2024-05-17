@@ -5,5 +5,14 @@
 }
 
 .page__content {
+  display: flex;
+  flex-direction: column;
   margin: 45px 200px 0 200px;
+  min-height: 100vh;
+}
+.page__section {
+  max-width: 880px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
 }

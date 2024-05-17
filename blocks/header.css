@@ -7,14 +7,7 @@
   border-bottom-width: 1px;
 }
 
-.page__section {
-  max-width: 880px;
-  width: 100%;
-  position: relative;
-  margin: 0 auto;
-}
-
-.header-logo {
+.header_logo {
   max-width: 173px;
   max-height: 33px;
 }
