@@ -4,7 +4,8 @@
 
 - 📝 Description
 - 🎨 Figma
-- 📸 Images
+- 🖼️ Images
+- 📺 Tutorial
   
 </br>**📝 Description**
    
@@ -14,7 +15,10 @@ This project involves creating an Instagram-esque page consisting of a profile s
   
 You can find the link to the project on Figma [here](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1).  
   
-**📸 Images**  
+**🖼️ Images**  
   
 Images are exported directly from Figma, and optimized using [tinify](https://tinypng.com/), so the project loads faster. 
 
+**📺 Tutorial**
+
+Curious about my process? Here's a [brief video](site.com) explaining my coding journey for this project. 
