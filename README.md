@@ -2,20 +2,19 @@
 
 ### Overview  
 
-* Intro  
-* Figma  
-* Images  
+- 📝 Description
+- 🎨 Figma
+- 📸 Images
   
-**Intro**
+</br>**📝 Description**
+   
+This project involves creating an Instagram-esque page consisting of a profile section, content page, and footer, all editable per user creativity. The goal is site responsiveness; it needs to be displayed correctly on various popular screen sizes. 
   
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
+**🎨 Figma**  
   
-**Figma**  
+You can find the link to the project on Figma [here](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1).  
   
-* [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)  
+**📸 Images**  
   
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+Images are exported directly from Figma, and optimized using [tinify](https://tinypng.com/), so the project loads faster. 
+
