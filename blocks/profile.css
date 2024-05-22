@@ -1,13 +1,16 @@
-@media screen and (max-width: 480x) {
+@media screen and (max-width: 440x) {
   .profile {
     flex-direction: column;
+    padding-top: 38.25px;
   }
 
   .profile__info {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 30px;
     width: 100%;
     justify-content: center;
+    grid-template-columns: minmax(auto, 196px) auto;
   }
 
   .profile__description {
@@ -50,6 +53,7 @@
 
 .profile__title {
   font-size: 42px;
+  font-family: "Inter", Arial, sans-serif;
   line-height: 48px;
   font-weight: 400;
   grid-area: title;
@@ -59,6 +63,7 @@
 
 .profile__description {
   font-size: 18px;
+  font-family: "Inter", Arial, sans-serif;
   line-height: 21.78px;
   font-weight: 400;
   grid-area: description;
@@ -74,6 +79,7 @@
   height: 24px;
   width: 24px;
   grid-area: button;
+  border: solid 1px white;
 }
 
 .profile__edit-button:hover {
@@ -86,6 +92,7 @@
   width: 150px;
   height: 50px;
   margin-left: auto;
+  border: solid 1px white;
 }
 
 .profile__add-button:hover {
