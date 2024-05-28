@@ -22,7 +22,7 @@
   flex-direction: column;
   margin: 45px 200px 0 200px;
   min-height: 100vh;
-  -webkit-font-smoothing: antiliased;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 .page__section {

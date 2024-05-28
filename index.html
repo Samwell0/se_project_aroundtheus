@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <header>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
@@ -8,14 +8,14 @@
     <meta name="keywords" content="travel, tourist, vacation, yosemite" />
     <title>Around the U.S.</title>
     <link href="./pages/index.css" rel="stylesheet" />
-  </head>
+  </header>
   <body class="page">
     <div class="page__content">
       <header class="header page__section">
         <img
           src="./images/around-the-us-white.svg"
           alt="Around the U.S. logo"
-          class="header_logo"
+          class="header__logo"
         />
       </header>
       <main class="content">
@@ -27,14 +27,21 @@
           />
           <div class="profile__info">
             <h1 class="profile__title">Jacques Cousteau</h1>
-            <button class="profile__edit-button"></button>
+            <button
+              class="profile__edit-button"
+              type="button"
+              aria-label="edit profile"
+            ></button>
             <p class="profile__description">Explorer</p>
           </div>
-          <button class="profile__add-button"></button>
+          <button
+            class="profile__add-button"
+            type="button"
+            aria-label="add"
+          ></button>
         </section>
         <section class="cards page__section">
-          <ul class="card__list">
-            <!--Yosemite Valley card-->
+          <ul class="cards__list">
             <li class="card">
               <img
                 src="./images/card-images/yosemite.jpg"
@@ -43,10 +50,13 @@
               />
               <div class="card__description">
                 <h2 class="card__description-text">Yosemite Valley</h2>
-                <button class="card__like-button"></button>
+                <button
+                  class="card__like-button"
+                  type="button"
+                  aria-label="like"
+                ></button>
               </div>
             </li>
-            <!--Lake Louise card-->
             <li class="card">
               <img
                 src="./images/card-images/lake-louise.jpg"
@@ -55,10 +65,13 @@
               />
               <div class="card__description">
                 <h2 class="card__description-text">Lake Louise</h2>
-                <button class="card__like-button"></button>
+                <button
+                  class="card__like-button"
+                  type="button"
+                  aria-label="like"
+                ></button>
               </div>
             </li>
-            <!--Bald Mountains card-->
             <li class="card">
               <img
                 src="./images/card-images/bald-mountains.jpg"
@@ -67,10 +80,13 @@
               />
               <div class="card__description">
                 <h2 class="card__description-text">Bald Mountains</h2>
-                <button class="card__like-button"></button>
+                <button
+                  class="card__like-button"
+                  type="button"
+                  aria-label="like"
+                ></button>
               </div>
             </li>
-            <!--Latemar card-->
             <li class="card">
               <img
                 src="./images/card-images/latemar.jpg"
@@ -79,10 +95,13 @@
               />
               <div class="card__description">
                 <h2 class="card__description-text">Latemar</h2>
-                <button class="card__like-button"></button>
+                <button
+                  class="card__like-button"
+                  type="button"
+                  aria-label="like"
+                ></button>
               </div>
             </li>
-            <!--Vanoise National Park card-->
             <li class="card">
               <img
                 src="./images/card-images/vanoise.jpg"
@@ -91,10 +110,13 @@
               />
               <div class="card__description">
                 <h2 class="card__description-text">Vanoise National Park</h2>
-                <button class="card__like-button"></button>
+                <button
+                  class="card__like-button"
+                  type="button"
+                  aria-label="like"
+                ></button>
               </div>
             </li>
-            <!--Lago di Braies card-->
             <li class="card">
               <img
                 src="./images/card-images/lago.jpg"
@@ -103,7 +125,11 @@
               />
               <div class="card__description">
                 <h2 class="card__description-text">Lago di Braies</h2>
-                <button class="card__like-button"></button>
+                <button
+                  class="card__like-button"
+                  type="button"
+                  aria-label="like"
+                ></button>
               </div>
             </li>
           </ul>

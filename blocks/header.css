@@ -1,13 +1,13 @@
 .header {
   margin-top: 45px;
   margin-bottom: 0;
-  height: 74px;
-  border-bottom: #545454;
+  border-bottom: rgba(84, 84, 84, 1);
+  opacity: 1;
   border-bottom-style: solid;
   border-bottom-width: 1px;
 }
 
-.header_logo {
+.header__logo {
   max-width: 173px;
   max-height: 33px;
 }

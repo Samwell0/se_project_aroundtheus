@@ -1,0 +1,16 @@
+@media screen and (max-width: 440px) {
+  .content {
+    padding: 0px 19px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content {
+    width: 100%;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+}
