@@ -8,6 +8,8 @@
 @media screen and (max-width: 440px) {
   .page__content {
     padding: 0 19px;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -25,6 +27,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .page__section {
   max-width: 880px;
   width: 100%;
