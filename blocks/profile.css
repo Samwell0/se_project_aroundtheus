@@ -1,7 +1,3 @@
-/*I asked Dot to help me with this page and after not saving 
-my original page and following several of the suggestions, 
-the section is messed up */
-
 .profile {
   display: flex;
   align-items: center;
@@ -64,7 +60,6 @@ the section is messed up */
   margin: 15px 0 9px 0;
   grid-area: button;
   border: solid 1px white;
-  border-radius: 1px;
   cursor: pointer;
   transition: opacity 0.3s ease-in-out;
 }
@@ -112,7 +107,11 @@ the section is messed up */
     text-align: center;
   }
 
-  .profile__edit-button,
+  .profile__edit-button {
+    width: auto;
+    justify-self: center;
+  }
+
   .profile__add-button {
     width: auto;
     justify-self: center;
@@ -128,20 +127,19 @@ the section is messed up */
     gap: 12px;
   }
 
-  .profile__title,
-  .profile__description,
-  .profile__edit-button,
-  .profile__add-button {
+  .profile__edit-button {
+    margin-top: 12px;
     width: auto;
-    text-align: center;
   }
 
-  .profile__edit-button,
   .profile__add-button {
     margin-top: 12px;
+    width: auto;
   }
 
   .profile__title {
+    width: auto;
+    text-align: center;
     font-size: 28px;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -150,14 +148,12 @@ the section is messed up */
   }
 
   .profile__description {
+    width: auto;
+    text-align: center;
     font-size: 16px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     margin-bottom: 8px;
-  }
-
-  .profile__add-button {
-    width: 90%;
   }
 }
