@@ -24,9 +24,8 @@
 @media screen and (max-width: 900px) {
   .page {
     box-sizing: border-box;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
     overflow-y: scroll;
+    margin: 0 auto;
   }
 
   .page::-webkit-scrollbar {
@@ -34,19 +33,11 @@
   }
 
   .page__section {
-    margin: 0 20px;
+    margin: 0 auto;
     max-width: calc(100% - 40px);
   }
 
   .page__content {
-    margin: 45px 40px 0 40px;
-  }
-}
-
-@media screen and (max-width: 440px) {
-  .page__content {
-    margin-top: 28px;
-    display: flex;
-    justify-content: center;
+    margin: 45px 35px 0 20px;
   }
 }
