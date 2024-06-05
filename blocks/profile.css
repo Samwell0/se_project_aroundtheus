@@ -70,7 +70,7 @@
   background: transparent url(../images/add-button-plus.svg) center no-repeat;
   width: 150px;
   height: 50px;
-  margin: auto;
+  margin: 0 auto 0 150px;
   border: solid 2px white;
   border-radius: 2px;
   cursor: pointer;
@@ -98,6 +98,7 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 260px;
+    margin-top: 30px;
   }
 
   .profile__description {
@@ -113,7 +114,7 @@
     font-size: 22px;
     text-align: center;
     line-height: 26.63px;
-    margin: 0 auto;
+    margin: 0;
     max-width: 260px;
   }
 
@@ -123,11 +124,12 @@
     gap: 10px;
     width: 18px;
     height: 18px;
+    margin: 0;
   }
 
   .profile__add-button {
     width: 260px;
     justify-self: center;
-    margin: 36px 19px 0 19px;
+    margin: 36px 19px 0px 19px;
   }
 }
