@@ -26,4 +26,11 @@
     margin: 48px auto 36px;
     max-width: 282px;
   }
+
+  .footer__copyright {
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 16.94px;
+    margin: 0;
+  }
 }
