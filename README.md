@@ -20,7 +20,7 @@ This TripleTen project involves creating an Instagram-esque page consisting of a
 
 </br>**📺 Tutorial**
 
-Curious about my process? Here's a [brief video](https://drive.google.com/file/d/1lYBeOoa-cBrFAYGCFU-x-HoMBqVlmMpY/view?usp=drive_link) explaining my coding journey for this project. 
+Curious about my process? Here's a [brief video](https://drive.google.com/file/d/1lYBeOoa-cBrFAYGCFU-x-HoMBqVlmMpY/view?usp=sharing) explaining my coding journey for this project. 
 
 </br>**🌐 Site**
 
