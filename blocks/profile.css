@@ -102,11 +102,9 @@
   }
 
   .profile__description {
-    grid-area: description;
     text-align: center;
     margin: 0;
     font-size: 14px;
-    font-weight: 400;
     width: 282px;
   }
 
@@ -114,7 +112,6 @@
     font-size: 22px;
     text-align: center;
     line-height: 26.63px;
-    margin: 0;
     max-width: 240px;
   }
 
