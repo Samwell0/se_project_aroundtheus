@@ -6,7 +6,7 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
-  display: flex;
+  display: none;
   padding: 0 19px;
 }
 
@@ -18,30 +18,92 @@
   position: relative;
   background-color: #fff;
   margin: auto;
-  padding: 36px;
+  padding: 34px 36px 0;
   border-radius: 10px;
+  max-width: 430px;
+  width: 100%;
+  min-height: 323px;
+  box-sizing: border-box;
 }
 
 .modal__close {
   border: none;
-  background-color: transparent;
+  background: transparent url(../images/modal-close-icon.svg) center no-repeat;
   cursor: pointer;
   position: absolute;
+  top: -39px;
+  right: -37px;
   bottom: calc(100% + 5px);
   left: calc(100% + 5px);
-  width: 40px;
-  height: 40px;
-  background-image: url(../images/modal-close-icon.svg);
-  background-repeat: no-repeat;
+  transform: rotate (90deg);
+  transition: 0.3s;
+  padding: 0;
+  margin: 0;
+  width: 35px;
+  height: 35px;
   background-size: contain;
+}
+
+.modal__close:hover {
+  opacity: 0.6;
 }
 
 .modal__heading {
   color: #000;
+  width: 330px;
+  height: 23px;
+  top: 229px;
+  left: 461px;
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29.05px;
+  margin-top: 2px;
+}
+
+.modal__input {
+  margin-bottom: 27px;
+  border: 1px;
+  border-bottom: 2px solid rgba(0, 0, 0, 1);
+  opacity: 20%;
+  outline: none;
+  padding: 5px 0;
+  width: 358px;
+  top: 333.26px;
+  left: 461px;
+}
+
+.modal__input:focus {
+  border-bottom-color: rgba(0, 0, 0, 1);
+}
+
+.modal__form-title {
+  width: 358px;
+  height: 27.26px;
+  top: 306px;
+  left: 461px;
+  border: 1px;
+  color: rgba(0, 0, 0, 1);
+  border-bottom: 0, 0, 1px rgba(0, 0, 0, 1) 0;
+  padding: 111px, 36px 29.74px, 36px;
 }
 
 .modal__form {
+  margin-top: 27px;
 }
 
-.modal__button {
+.modal__save {
+  width: 358px;
+  height: 50.15px;
+  margin-top: 21px;
+  top: 438.34px;
+  left: 461px;
+  border-radius: 3px;
+  background-color: #000;
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-weight: 400px;
+  font-size: 18px;
+  align-content: center;
+  line-height: 21.78px;
 }
