@@ -65,7 +65,7 @@
   margin-bottom: 27px;
   border: 1px;
   border-bottom: 2px solid rgba(0, 0, 0, 1);
-  opacity: 20%;
+  opacity: 80%;
   outline: none;
   padding: 5px 0;
   width: 358px;
@@ -75,6 +75,7 @@
 
 .modal__input:focus {
   border-bottom-color: rgba(0, 0, 0, 1);
+  opacity: 100%;
 }
 
 .modal__form-title {
