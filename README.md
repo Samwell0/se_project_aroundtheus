@@ -1,5 +1,9 @@
 # Project 3: Around The U.S.
 
+### Screenshots
+<img src="https://github.com/user-attachments/assets/6a2268a8-3071-465b-af6a-f7b0b14d5a0c" width="375" />
+<img src="https://github.com/user-attachments/assets/0fb5a2f5-3379-4def-bcb1-f63329e348c3" width="300" />
+
 ### Overview  
 
 - 📝 Description
