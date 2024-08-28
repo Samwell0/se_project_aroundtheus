@@ -42,98 +42,7 @@
           ></button>
         </section>
         <section class="cards page__section">
-          <ul class="cards__list">
-            <li class="card">
-              <img
-                src="./images/card-images/yosemite.jpg"
-                class="card__image"
-                alt="a flowing river in Yosemite Valley"
-              />
-              <div class="card__description">
-                <h2 class="card__description-text">Yosemite Valley</h2>
-                <button
-                  class="card__like-button"
-                  type="button"
-                  aria-label="like"
-                ></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/card-images/lake-louise.jpg"
-                class="card__image"
-                alt="scenic mountain view of calm Lake Louise"
-              />
-              <div class="card__description">
-                <h2 class="card__description-text">Lake Louise</h2>
-                <button
-                  class="card__like-button"
-                  type="button"
-                  aria-label="like"
-                ></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/card-images/bald-mountains.jpg"
-                class="card__image"
-                alt="sunset over the Bald Mountains"
-              />
-              <div class="card__description">
-                <h2 class="card__description-text">Bald Mountains</h2>
-                <button
-                  class="card__like-button"
-                  type="button"
-                  aria-label="like"
-                ></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/card-images/latemar.jpg"
-                class="card__image"
-                alt="starry night above mountain tops in Latemar"
-              />
-              <div class="card__description">
-                <h2 class="card__description-text">Latemar</h2>
-                <button
-                  class="card__like-button"
-                  type="button"
-                  aria-label="like"
-                ></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/card-images/vanoise.jpg"
-                class="card__image"
-                alt="shore of a placid lake below the mountains of Vanoise Nat'l Park"
-              />
-              <div class="card__description">
-                <h2 class="card__description-text">Vanoise National Park</h2>
-                <button
-                  class="card__like-button"
-                  type="button"
-                  aria-label="like"
-                ></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/card-images/lago.jpg"
-                class="card__image"
-                alt="boats by a dock on Lake Braies with mountains in background"
-              />
-              <div class="card__description">
-                <h2 class="card__description-text">Lago di Braies</h2>
-                <button
-                  class="card__like-button"
-                  type="button"
-                  aria-label="like"
-                ></button>
-              </div>
-            </li>
-          </ul>
+          <ul class="cards__list"></ul>
         </section>
       </main>
       <footer class="footer">
@@ -163,6 +72,21 @@
         </form>
       </div>
     </div>
+
+    <template id="card-template">
+      <li class="card">
+        <img src="" class="card__image" alt="" />
+        <div class="card__description">
+          <h2 class="card__description-text"></h2>
+          <button
+            class="card__like-button"
+            type="button"
+            aria-label="like"
+          ></button>
+        </div>
+      </li>
+    </template>
+
     <script src="./scripts/index.js"></script>
   </body>
 </html>
