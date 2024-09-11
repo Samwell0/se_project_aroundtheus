@@ -2,26 +2,32 @@ const initialCards = [
   {
     name: "Yosemite Valley",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/yosemite.jpg",
+    alt: "A breathtaking view of a river in Yosemite Valley",
   },
   {
     name: "Lake Louise",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/lake-louise.jpg",
+    alt: "An stunning crystal clear view of Lake Louise",
   },
   {
     name: "Bald Mountains",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/bald-mountains.jpg",
+    alt: "An incredible sunrise in the Bald Mountains",
   },
   {
     name: "Latemar",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/latemar.jpg",
+    alt: "An amazing nighttime view of Latemar",
   },
   {
     name: "Vanoise National Park",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/vanoise.jpg",
+    alt: "A stunning view of Vanoise National Park",
   },
   {
     name: "Lago di Braies",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/lago.jpg",
+    alt: "A beautiful view of Lago di Braies",
   },
 ];
 
@@ -57,7 +63,7 @@ function getCardElement(cardData) {
   const cardTitleEl = cardElement.querySelector(".card__title");
   cardTitleEl.textContent = cardData.name;
   cardImageEl.src = cardData.link;
-  cardImageEl.alt = cardData.imageAlt;
+  cardImageEl.alt = cardData.alt;
   return cardElement;
 }
 
@@ -88,39 +94,3 @@ initialCards.forEach((cardData) => {
   const cardElement = getCardElement(cardData);
   cardListEl.prepend(cardElement);
 });
-
-/* -------------------------------------------------------------------------- */
-/*                                  Card Data                                 */
-/* -------------------------------------------------------------------------- */
-const cardDataArray = [
-  {
-    name: "Lago di Braies",
-    imageSrc: "../se_project_aroundtheus/images/card-images/lago.jpg",
-    imageAlt: "A beautiful view of Lago di Braies",
-  },
-  {
-    name: "Vanoise Natinoal Park",
-    imageSrc: "../se_project_aroundtheus/images/card-images/vanoise.jpg",
-    imageAlt: "A stunning view of Vanoise National Park",
-  },
-  {
-    name: "Latemar",
-    imageSrc: "../se_project_aroundtheus/images/card-images/latemar.jpg",
-    imageAlt: "An amazing nighttime view of Latemar",
-  },
-  {
-    name: "Bald Mountains",
-    imageSrc: "../se_project_aroundtheus/images/card-images/bald-mountains.jpg",
-    imageAlt: "An incredible sunrise in the Bald Mountains",
-  },
-  {
-    name: "Lake Louise",
-    imageSrc: "../se_project_aroundtheus/images/card-images/lake-louise.jpg",
-    imageAlt: "An stunning crystal clear view of Lake Louise",
-  },
-  {
-    name: "Yosemite Valley",
-    imageSrc: "../se_project_aroundtheus/images/card-images/yosemite.jpg",
-    imageAlt: "A breathtaking view of a river in Yosemite Valley",
-  },
-];
