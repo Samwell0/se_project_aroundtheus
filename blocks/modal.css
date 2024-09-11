@@ -64,8 +64,7 @@
 .modal__input {
   margin-bottom: 27px;
   border: 1px;
-  border-bottom: 1px solid rgba(0, 0, 0, 1);
-  opacity: 20%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   outline: none;
   padding: 5px 0;
   width: 358px;
@@ -73,29 +72,8 @@
   left: 461px;
 }
 
-.modal__form .modal__input:focus {
-  border-bottom-color: rgba(0, 0, 0, 1);
-  opacity: 100%;
-}
-
-.modal__form .modal__input::placeholder {
-  color: rgb(0, 0, 0) !important;
-}
-
-.modal__form .modal__input::-webkit-input-placeholder {
-  color: rgb(0, 0, 0) !important;
-}
-
-.modal__form .modal__input:-moz-placeholder {
-  color: rgb(0, 0, 0) !important;
-}
-
-.modal__form .modal__input::-moz-placeholder {
-  color: rgb(0, 0, 0) !important;
-}
-
-.modal__form .modal__input:-ms-input-placeholder {
-  color: rgb(0, 0, 0) !important;
+.modal__input::placeholder {
+  color: rgb(0, 0, 0);
 }
 
 .modal__form-title {

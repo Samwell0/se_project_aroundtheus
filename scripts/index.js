@@ -55,12 +55,16 @@ function getCardElement(cardData) {
   const cardElement = cardTemplate.cloneNode(true);
   const cardImageEl = cardElement.querySelector(".card__image");
   const cardTitleEl = cardElement.querySelector(".card__title");
-  const cardDescriptionEl = cardElement.querySelector(".card__description");
   cardTitleEl.textContent = cardData.name;
   cardImageEl.src = cardData.link;
-  cardDescriptionEl.src = cardData.link;
+  cardImageEl.alt = cardData.imageAlt;
   return cardElement;
 }
+
+cardDataArray.forEach((cardData) => {
+  const cardElement = getCardElement(cardData);
+  cardsContainer.prepend(cardElement);
+});
 
 /* -------------------------------------------------------------------------- */
 /*                               Event Handlers                               */
@@ -89,3 +93,39 @@ initialCards.forEach((cardData) => {
   const cardElement = getCardElement(cardData);
   cardListEl.prepend(cardElement);
 });
+
+/* -------------------------------------------------------------------------- */
+/*                                  Card Data                                 */
+/* -------------------------------------------------------------------------- */
+const cardDataArray = [
+  {
+    name: "Lago di Braies",
+    imageSrc: "../se_project_aroundtheus/images/card-images/lago.jpg",
+    imageAlt: "A beautiful view of Lago di Braies",
+  },
+  {
+    name: "Vanoise Natinoal Park",
+    imageSrc: "../se_project_aroundtheus/images/card-images/vanoise.jpg",
+    imageAlt: "A stunning view of Vanoise National Park",
+  },
+  {
+    name: "Latemar",
+    imageSrc: "../se_project_aroundtheus/images/card-images/latemar.jpg",
+    imageAlt: "An amazing nighttime view of Latemar",
+  },
+  {
+    name: "Bald Mountains",
+    imageSrc: "../se_project_aroundtheus/images/card-images/bald-mountains.jpg",
+    imageAlt: "An incredible sunrise in the Bald Mountains",
+  },
+  {
+    name: "Lake Louise",
+    imageSrc: "../se_project_aroundtheus/images/card-images/lake-louise.jpg",
+    imageAlt: "An stunning crystal clear view of Lake Louise",
+  },
+  {
+    name: "Yosemite Valley",
+    imageSrc: "../se_project_aroundtheus/images/card-images/yosemite.jpg",
+    imageAlt: "A breathtaking view of a river in Yosemite Valley",
+  },
+];
