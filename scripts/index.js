@@ -61,11 +61,6 @@ function getCardElement(cardData) {
   return cardElement;
 }
 
-cardDataArray.forEach((cardData) => {
-  const cardElement = getCardElement(cardData);
-  cardsContainer.prepend(cardElement);
-});
-
 /* -------------------------------------------------------------------------- */
 /*                               Event Handlers                               */
 /* -------------------------------------------------------------------------- */
