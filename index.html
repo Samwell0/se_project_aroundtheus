@@ -68,10 +68,34 @@
             placeholder="Description"
             class="modal__input"
           />
-          <button class="modal__save">Save</button>
+          <button class="modal__save" type="submit">Save</button>
         </form>
       </div>
     </div>
+
+    <!--Add card modal-->
+    <div class="modal" id="add-cad-modal">
+      <div class="modal__content">
+        <button class="modal__close" type="button"></button>
+        <h3 class="modal__title">New Place</h3>
+        <form class="modal__form" id="add-card-form">
+          <input
+            class="modal__input modal__input_type_title"
+            name="title"
+            placeholder="Title"
+            type="text"
+          />
+          <input
+            class="modal__input modal__input_type_url"
+            name="url"
+            placeholder="Image URL"
+            type="text"
+          />
+          <button class="button modal__button" type="submit">Save</button>
+        </form>
+      </div>
+    </div>
+    <script defer src="./scripts/index.js"></script>
 
     <template id="card-template">
       <li class="card">

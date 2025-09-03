@@ -60,6 +60,12 @@ function handleProfileEditSubmit(Event) {
   closePopUp(edit);
 }
 
+function handleAddCardFormSubmit(Event) {
+  Event.preventDefault();
+  const cardElement = getCardElement();
+  closePopUp(addCardModal);
+}
+
 function getCardElement(cardData) {
   const cardElement = cardTemplate.cloneNode(true);
   const cardImageEl = cardElement.querySelector(".card__image");
