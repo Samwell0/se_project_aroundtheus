@@ -49,15 +49,15 @@ const cardTemplate =
   document.querySelector("#card-template").content.firstElementChild;
 
 // Functions
-function closePopUp() {
-  profileEditModal.classList.remove("modal_opened");
+function closePopUp(modal) {
+  modal.classList.remove("modal_opened");
 }
 
 function handleProfileEditSubmit(Event) {
   Event.preventDefault();
   profileTitle.textContent = nameInput.value;
   profileDescription.textContent = jobInput.value;
-  closePopUp(edit);
+  closePopUp(profileEditModal);
 }
 
 function handleAddCardFormSubmit(Event) {
