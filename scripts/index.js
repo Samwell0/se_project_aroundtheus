@@ -33,13 +33,23 @@ const initialCards = [
 
 console.log(initialCards);
 
-// Elements
+// Wrappers
+const cardsWrap = document.querySelector(".cards__list");
+// const editProfileModal = document.querySelector("#edit-modal");
+// const addCardModal = document.querySelector("#add-card-modal");
+// const profileFormElement = profileEditModal.querySelector(".modal__form");
+// the video has this as "editProfileModal" I believe
+// const addCardFormElement = addCardModal.querySelector(".modal__form");
+// unclear if I have "addCardFormElement" or not
+
+// Elements or Buttons and other DOM nodes
 const profileEditButton = document.querySelector("#profile-edit-button");
 const profileEditModal = document.querySelector("#profile-edit-modal");
 const profileCloseButton = document.querySelector("#profile-close-modal");
 const profileTitle = document.querySelector(".profile__title");
 const profileDescription = document.querySelector(".profile__description");
 const profileTitleInput = document.querySelector("#profile-title-input");
+// const addNewCardButton = document.querySelector("#.profile__add-button");
 const profileDescriptionInput = document.querySelector(
   "#profile-description-input"
 );
@@ -47,6 +57,16 @@ const profileEditForm = profileEditModal.querySelector(".modal__form");
 const cardListEl = document.querySelector(".cards__list");
 const cardTemplate =
   document.querySelector("#card-template").content.firstElementChild;
+
+// Form Data
+// const nameInput = profileFormElement.querySelector(".modal__input_type_name");
+// const jobInput = profileFormElement.querySelector(".modal__input_type_description");
+// unclear but I don't think I have these in my .modal block
+
+const cardTitleInput = addCardFormElement.querySelector(
+  ".modal__input_type_name"
+);
+const urlInput = addCardFormElement.querySelector(".modal__input_type_url");
 
 // Functions
 function closePopUp(modal) {
@@ -94,6 +114,12 @@ profileEditButton.addEventListener("click", () => {
 profileCloseButton.addEventListener("click", closePopUp);
 
 profileEditForm.addEventListener("submit", handleProfileEditSubmit);
+
+// add new card
+// addNewCardButton.addEventListener{"click", () => openModal(addCardModal)};
+// addCardModalCloseButton.addEventListener{"click", () =>
+//   closeModal(addCardModal)
+// };
 
 initialCards.forEach((cardData) => {
   const cardElement = getCardElement(cardData);
