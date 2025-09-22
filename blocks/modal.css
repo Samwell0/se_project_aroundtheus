@@ -76,6 +76,14 @@
   color: rgb(0, 0, 0);
 }
 
+.modal__input_type_name {
+  font-family: Inter;
+}
+
+.modal__input_type_description {
+  font-family: Inter;
+}
+
 .modal__form-title {
   width: 358px;
   height: 27.26px;
