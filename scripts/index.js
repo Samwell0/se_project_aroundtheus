@@ -31,8 +31,6 @@ const initialCards = [
   },
 ];
 
-console.log(initialCards);
-
 // Elements
 const profileEditButton = document.querySelector("#profile-edit-button");
 const profileEditModal = document.querySelector("#profile-edit-modal");
@@ -57,7 +55,7 @@ function handleProfileEditSubmit(Event) {
   Event.preventDefault();
   profileTitle.textContent = nameInput.value;
   profileDescription.textContent = jobInput.value;
-  closePopUp(edit);
+  closePopUp(profileEditModal);
 }
 
 function handleAddCardFormSubmit(Event) {
